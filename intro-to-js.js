@@ -6,7 +6,7 @@ repeatStringNumTimes = (string, times) => {
   }
   return repeatedString;
 }
-repeatStringNumTimes("abc", 3);
+// repeatStringNumTimes("abc", 3);
 
 repeatStringNumTimes = (string, times) => {
   if (times > 0)
@@ -151,16 +151,13 @@ if (true) {
 
 // if/else if
 if (false) {
-  console.log("I'm ignored");
 } else if (true) {
   console.log('this is also true');
 }
 
 // if/else
 if (false) {
-  console.log("Ignore me");
 } else if (false) {
-  console.log("Ignore me too");
 } else {
   console.log("Nothing was true, boohoo");
 }
